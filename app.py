@@ -2,7 +2,7 @@ from flask import Flask, render_template_string
 from flask_socketio import SocketIO, emit
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'your-very-secret-key!' # Make sure this is a real secret!
+app.config['SECRET_KEY'] = 'this-is-a-test-website-just-be-chill' # Make sure this is a real secret!
 socketio = SocketIO(app)
 
 # This is the HTML, CSS, and JavaScript for the client's browser
